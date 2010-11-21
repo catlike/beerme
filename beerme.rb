@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra'
-require 'lib'
+require 'lib/sms'
+require 'lib/baprofile'
        
 post '/sms' do
   content_type :json
