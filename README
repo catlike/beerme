@@ -1,0 +1,8 @@
+an SMS interface to beeradvocate.com ratings via Cloudvox
+
+cloudvox_config.yml should be of the form
+
+domain: <your account domain>
+user: <FQ login id>
+password: <password>
+application_id: <application id>
